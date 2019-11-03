@@ -1,0 +1,283 @@
+.firstdiv{
+  background: green;
+  height: 60px;
+  width: 100%;
+
+}
+.resize{
+  height: 75px;
+  width: auto;
+  float: left;
+  margin-top: 10px;
+}
+.h1induru{
+  color: white;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: -5px;
+}
+.navv{
+  background: red;
+  height: 30px;
+  width: 44%;
+  margin-left: 55%;
+  font-size: 20px;
+  font-weight:normal;
+  word-spacing: 10px;
+  padding-left: 16px;
+}
+
+body{
+  background-color: #f7e38f;
+}
+#navfont{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+}
+
+#navHome{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+#navAbout{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+#navTour{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+#navHis{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+#navContact{
+  color: white;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+
+#aboutdist{
+  font-size: 23px;
+}
+#aboutImg{
+  width:100%;
+}
+
+
+#para{
+  font-size: 18px;
+  margin-top: -10px;
+  /* font-family:sans-serif; */
+  font-family:serif;
+  font-weight: bold;
+}
+#viewmore{
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.tri{
+  list-style-type:square;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+#h1{
+  margin-top: 0px;
+  width: 100%;
+  height: 300px;
+}
+
+.atg{
+  background-color:#b7bfb4;
+}
+#vlgj{
+  float: left;
+}
+#vlgt{
+  font-size: 40px;
+}
+#munj{
+  float: left;
+}
+#munt{
+  font-size: 40px;
+}
+#assj{
+  margin-top: -270px;
+  margin-left: 220px;
+  float: left;
+}
+#asst{
+  margin-top: -270px;
+  margin-left: 490px;
+  float: left;
+  font-size: 40px;
+}
+#parj{
+  margin-left: 487px;
+  margin-top: -150px;
+}
+#part{
+  margin-left: 580px;
+  margin-top: -60px;
+  font-size: 34px;
+}
+.foot{
+  width: 100%;
+  height:27px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-weight:lighter;
+  font-family: cursive;
+  margin-bottom: -10px;
+}
+
+
+#footf{
+  margin-right: 40px;
+}
+
+
+
+
+
+/* tourist_places */
+
+.tour{
+  float:right;
+
+}
+.tour1{
+  float: left;
+}
+
+
+
+
+
+/* contact */
+#saiid{
+  margin-top: -120px;
+  margin-left: 200px;
+  border-radius: 200px;
+}
+#name{
+  list-style-type: none;
+  font-size: 30px;
+  l
+}
+#name1{
+ list-style-type: none;
+ font-weight:inherit;
+}
+#fb{
+  border-radius: 210px;
+  height: 40px;
+  width: auto;
+}
+
+#issue{
+  height: 100px;
+}
+
+.formm{
+ width: 200px;
+ margin-left: 50%;
+ margin-top: -300px;
+ background-color: #86cffc;
+ border:2px solid blue;
+ background-clip: padding-box;
+}
+
+.trans {
+  width: 50px;
+  height: 30px;
+  background: blue;
+  animation-name: colorchange;
+  animation-duration: 11s;
+}
+@keyframes colorchange {
+  0%{background-color: blue;}
+  50%{background-color: green;}
+  100%{background-color: red;}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
